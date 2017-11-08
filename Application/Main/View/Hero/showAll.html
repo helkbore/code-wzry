@@ -1,0 +1,41 @@
+<layout name="Base/layout"/>
+
+<div class="main">
+    <a href="{:U('Hero/add')}">添加英雄</a>
+    <a href="{:U('Hero/showConfigMain')}">英雄-主玩通配</a>
+	<a href="{:U('Hero/showCc')}">英雄场次统计</a>
+	<!-- 
+	<select>
+		<option value="1">微信</option>
+		<option value="2">QQ</option>
+	</select>
+	<button>查询</button> 
+	-->
+    <table>
+        <tr>
+            <td>英雄名</td>
+            <td>类型</td>
+            <td>价格</td>
+			<td>是否拥有</td>
+			<td>拥有角色数</td>
+			<td>管理</td>
+        </tr>
+        
+        <foreach name="_list" item="item">
+            <tr>
+                <td>{$item.hero_name}</td>
+                <td>{$item.hero_type}</td>
+				<td>{$item.money}</td>
+				<td>{$item.is_have}</td>
+				<td>{$item.hero_nums}</td>
+                <td>
+                    <a href="{:U('dodel',array('hero_id'=>$item['hero_id']))}">删除</a>
+					<a href="{:U('edit',array('hero_id'=>$item['hero_id']))}">编辑</a>
+					<a href="{:U('showDetail',array('hero_id'=>$item['hero_id']))}">详情</a>
+					<!-- <a href="{:U('showMain',array('hero_id'=>$item['hero_id']))}">主玩角色</a> -->
+					<!-- <a href="{:U('showOwn',array('hero_id'=>$item['hero_id']))}">拥有角色</a> -->
+                </td>
+            </tr>
+        </foreach>
+    </table>
+</div>

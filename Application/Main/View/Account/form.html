@@ -1,0 +1,17 @@
+<layout name="Base/layout"/>
+
+<div class="main">
+    <form method="post" action="{:U('dosave')}">
+        <input type="hidden" name="account_id" value="{$account.account_id}" />
+        <label>类型</label>
+        <select name="type">
+            <option value="1" <if condition="$account.type eq 1"> selected </if> >微信</option>
+            <option value="2" <if condition="$account.type eq 2"> selected </if> >QQ</option>
+        </select>
+        
+        <label>账号</label>
+        <input type="text" name="account" value="{$account.account}" />
+        <button>提交</button>
+    </form>
+</div>
+

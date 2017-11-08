@@ -1,0 +1,62 @@
+<layout name="Base/layout"/>
+<div class="container">
+	
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			
+			<if condition="$account.type eq 1"> <i class="fa fa-weixin font-mid color-red" aria-hidden="true"></i>
+			<elseif condition="$account.type eq 2" /> <i class="fa fa-qq font-mid color-red" aria-hidden="true"></i>
+			</if>
+			
+			{$account.account}  
+			<span class="badge"> 共{$account.user_num}个角色</span>
+		</div>
+		<div class="panel-body">
+			<div class="row">
+				<foreach name="users" item="item">
+				<div class="col-xs-12 col-sm-6 col-md-3">
+					<ul class="list-group">
+						 <li class="list-group-item">
+							{$item.name} <i class="fa fa-home" aria-hidden="true"></i>{$item.area_no}区 {$item.area_name} 
+							<input type="hidden" name="user_id" value="{$item.user_id}" />
+						</li>
+						
+						<li class="list-group-item">
+						<volist name="item['hero']" id="heros">
+						
+						 {$heros.hero_name} , 
+						 
+						</volist>
+						</li>
+						
+						<li class="list-group-item">
+						
+							<i class="fa fa-gbp color-red font-icon-common" aria-hidden="true"></i>  {$item.level}
+							<i class="fa fa-dollar color-red font-icon-common" aria-hidden="true"></i>  {$item.money}
+							<i class="fa fa-diamond color-red font-icon-common" aria-hidden="true"></i> 钻石: {$item.diamond}
+						</li>
+						<li class="list-group-item">
+						
+						主玩: 
+						<volist name="item['main_hero']" id="main_hero">
+							{$main_hero['hero_name']}&nbsp;
+						</volist>
+						</li>
+						<li  class="list-group-item">{:date('Y-m-d H:i:s',$item['last_time'])}</li>
+						<li  class="list-group-item">
+							<span class="label label-info color-light"><a href="{:U('User/dodel',array('user_id'=>$item['user_id']))}">删除</a></span>
+							<span class="label label-info color-light"><a href="{:U('User/edit',array('user_id'=>$item['user_id']))}">编辑</a></span>
+							<span class="label label-info color-light"><a href="{:U('User/setMain',array('user_id'=>$item['user_id']))}">设置主玩英雄</a></span>
+						</li>
+					</ul>
+				</div>
+				</foreach>
+				
+			</div>
+		</div>
+		<div class="panel-footer"></div>
+	</div>
+	
+
+
+</div>

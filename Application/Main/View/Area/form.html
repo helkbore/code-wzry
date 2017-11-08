@@ -1,0 +1,19 @@
+<layout name="Base/layout"/>
+
+<div class="main">
+    <form method="post" action="{:U('dosave')}">
+        <input type="hidden" name="area_id" value="{$area.area_id}" />
+        <label>类型</label>
+        <select name="type">
+            <option value="1" <if condition="$area.type eq 1"> selected </if> >微信</option>
+            <option value="2"<if condition="$area.type eq 2"> selected </if> >QQ</option>
+        </select>
+        
+        <label>区号</label>
+        <input type="text" name="area_no" value="{$area.area_no}" />
+		
+		<label>区名</label>
+        <input type="text" name="area_name" value="{$area.area_name}" />
+        <button>提交</button>
+    </form>
+</div>

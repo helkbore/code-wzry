@@ -1,0 +1,134 @@
+<layout name="Base/layout"/>
+js验证匹配等页面定了以后再做
+<div>
+<h1>主玩-自动匹配</h1>
+<form method="post" action="{:U('saveAutoMatch')}" >
+<h2>可匹配结果</h2>
+<button>一键保存</button>
+<table>
+	<tr>
+		<th>英雄名</th>
+		<th>匹配结果</th>
+		<th>可选用户(下拉框): </th>
+		<th>操作</th>
+	</tr>
+	<foreach name="auto_match" item="item">
+	<tr>
+		<td>
+			<input type="hidden" name="hero_id[]" value="{$item.hero_id}" />
+			{$item.hero_name}
+		</td>
+		<td>
+			{$item.name}
+			<if condition="$item.type eq 1"> 微信 </if>
+			<if condition="$item.type eq 2"> QQ </if>
+			{$item.account} 
+			{$item.area_no}区
+			{$item.level}级
+			{$item.money}金
+		</td>
+		<td>
+			<select name="user_id[]">
+				<option value="{$item.user_id}">
+					{$item.name}
+					<if condition="$item.type eq 1"> 微信 </if>
+					<if condition="$item.type eq 2"> QQ </if>
+					{$item.account} 
+					{$item.area_no}区
+					{$item.level}级
+					{$item.money}金
+				</option>
+				<volist name="hero_type" id="heros">
+				</volist>
+			</select>
+		</td>
+		<td>
+			<a href="">详情</a>
+			<a href="">保存</a>
+		</td>
+	</tr>
+	</foreach>
+</table>
+<h2>手动匹配</h2>
+<table>
+	<tr>
+		<th>英雄名</th>
+		<th>可选用户(下拉框): </th>
+		<th>操作</th>
+	</tr>
+	<foreach name="no_auto" item="noauto">
+	<tr>
+		<td>
+			<input type="hidden" name="hero_id[]" value="{$noauto.hero_id}" />
+			{$noauto.hero_name}
+		</td>
+		<td>
+			<select name="user_id[]">
+				<volist name="noauto['having_users']" id="having_users">
+					<option value="{$having_users.user_id}">
+						{$having_users['name']}
+						<if condition="$having_users.type eq 1"> 微信 </if>
+						<if condition="$having_users.type eq 2"> QQ </if>
+						{$having_users.account} 
+						{$having_users.area_no}区
+						{$having_users.level}级
+						{$having_users.money}金
+						{$having_users.cc}场数
+					</option>
+				</volist>
+			</select>
+		</td>
+		<td>
+			<a href="">详情</a>
+			<a href="">保存</a>
+		</td>
+	</tr>
+	</foreach>
+</table>
+</form>
+<h2>未拥有英雄</h2>
+<?php if (!empty($unown_hero)): ?>
+<table>
+	<tr>
+		<th>英雄名</th>
+		<th>金</th>
+	</tr>
+	<foreach name="unown_hero" item="unown_hero">
+	<tr>
+		<td>{$unown_hero.hero_name}</td>
+		<td>{$unown_hero.money}</td>
+	</tr>
+	</foreach>
+</table>
+<?php endif; ?>
+
+<h2>未匹配角色</h2>
+<?php if (!empty($unown_user)): ?>
+<table>
+	<tr>
+		<th>类型</th>
+		<th>账号</th>
+		<th>大区</th>
+		<th>用户名</th>
+		<th>等级</th>
+		<th>金</th>
+		<th>拥有英雄</th>
+	</tr>
+	<foreach name="unown_user" item="unown_user">
+	<tr>
+		<td>
+			<if condition="$unown_user.type eq 1">微信
+			<elseif condition="$unown_user.type eq 2" />QQ
+			</if>
+		</td>
+		<td>{$unown_user.account}</td>
+		<td>{$unown_user.area_no}</td>
+		<td>{$unown_user.name}</td>
+		<td>{$unown_user.level}</td>
+		<td>{$unown_user.money}</td>
+		<td>{$unown_user.having_hero}</td>
+	</tr>
+	</foreach>
+</table>
+<?php endif; ?>
+</div>

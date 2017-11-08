@@ -1,0 +1,43 @@
+<layout name="Base/layout"/>
+<div>
+	<p>
+		{$hero_info.hero_name}: {$hero_info.hero_type}{$hero_info.money}金 角色: {$hero_info.user_num} 主玩: {$hero_info.main_num}
+	</p>
+	<ul>
+		<li>拥有角色
+			<ul>
+				<foreach name="users" item="user">
+				<li>
+					<if condition="$user.type eq 1">微信
+					<elseif condition="$user.type eq 2" />QQ
+					</if>
+					{$user.account}-{$user.area_no}区
+				</li>
+				<li>
+					{$user.name}: {$user.level}级{$user.money}金{$user.diamond}钻
+				</li>
+				
+				<li>
+					英雄: 
+					<volist name="user['hero']" id="heros">
+						{$heros.hero_name}, 
+					</volist>
+				</li>
+				<li>
+					主玩:
+					<volist name="user['main_hero']" id="main_hero">
+						{$main_hero.hero_name}, 
+					</volist>
+				</li>
+				<li><a href="{:U('setMainUser',array('hero_id' => $hero_info['hero_id'], 'user_id' => $heros['user_id']))}">设为主玩</a></li>
+				</foreach>
+			</ul>
+		<li>主玩角色: 
+			<foreach name="main_heros" item="mh">
+				{$mh.name}
+			</foreach>
+			
+		</li>
+		
+	</ul>
+</div>

@@ -1,0 +1,21 @@
+<layout name="Base/layout"/>
+
+<div class="main">
+    <form method="post" action="{:U('dosave')}">
+        <label>名称</label>
+		<input type="hidden" name="hero_id" value="{$hero.hero_id}" />
+        <input type="text" name="hero_name" value="{$hero.hero_name}" />
+        
+        <label>类型</label>
+		<foreach name="hero_type" key="key" item="item">
+			<input type="radio" name="hero_type" value="{$key}" 
+				<if condition="$hero.type_key eq $key"> checked </if>
+			/>{$item}
+        </foreach>
+		
+        <label>价格</label>
+        <input type="text" name="money" value="{$hero.money}" />
+        
+        <button>提交</button>
+    </form>
+</div>

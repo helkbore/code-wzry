@@ -1,0 +1,315 @@
+[ 2017-08-26T17:51:58+08:00 ] ::1 /wzry/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.111006s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.032002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.070004s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.070004s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\e51589c1c6ce3f3fe5e0936addbdf170.php 第 32 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\e51589c1c6ce3f3fe5e0936addbdf170.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.385022s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.385022s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.028001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021001s ]
+
+[ 2017-08-26T17:52:04+08:00 ] ::1 /wzry/index.php?s=/Main/Hero/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_user_hero` [ RunTime:0.1650s ]
+SQL: SHOW COLUMNS FROM `wzry_hero` [ RunTime:0.1760s ]
+SQL: SELECT * FROM `wzry_hero` ORDER BY hero_type, money  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_user_hero` WHERE ( hero_id=17 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_user_hero` WHERE ( hero_id=19 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_user_hero` WHERE ( hero_id=15 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_user_hero` WHERE ( hero_id=22 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_user_hero` WHERE ( hero_id=14 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_user_hero` WHERE ( hero_id=13 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_user_hero` WHERE ( hero_id=18 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_user_hero` WHERE ( hero_id=16 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\ffb43fc3525024f1fbadf4d3b831ae96.php 第 32 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\ffb43fc3525024f1fbadf4d3b831ae96.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-26T17:52:05+08:00 ] ::1 /wzry/index.php?s=/Main/Hero/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\844384b027e804f08e4ea97fec121490.php 第 32 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\844384b027e804f08e4ea97fec121490.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-26T17:52:20+08:00 ] ::1 /wzry/index.php?s=/Main/Hero/dosave.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `wzry_hero` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: validate D:\php\personal\wzry\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\php\personal\wzry\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_name` = '刘禅'  [ RunTime:0.0000s ]
+SQL: INSERT INTO `wzry_hero` (`hero_name`,`hero_type`,`money`) VALUES ('刘禅','t','2888') [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-26T17:52:22+08:00 ] ::1 /wzry/index.php?s=/Main/Hero/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_user_hero` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `wzry_hero` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wzry_hero` ORDER BY hero_type, money  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_user_hero` WHERE ( hero_id=17 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_user_hero` WHERE ( hero_id=19 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_user_hero` WHERE ( hero_id=15 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_user_hero` WHERE ( hero_id=22 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_user_hero` WHERE ( hero_id=14 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_user_hero` WHERE ( hero_id=23 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_user_hero` WHERE ( hero_id=13 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_user_hero` WHERE ( hero_id=18 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_user_hero` WHERE ( hero_id=16 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\ffb43fc3525024f1fbadf4d3b831ae96.php 第 32 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\ffb43fc3525024f1fbadf4d3b831ae96.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-26T17:52:26+08:00 ] ::1 /wzry/index.php?s=/Main/Hero/dodel/hero_id/17.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_hero` [ RunTime:0.0090s ]
+SQL: DELETE FROM `wzry_hero` WHERE ( hero_id=17 ) [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wzry_user_hero` [ RunTime:0.0070s ]
+SQL: DELETE FROM `wzry_user_hero` WHERE ( hero_id=17 ) [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wzry_main_hero` [ RunTime:0.0440s ]
+SQL: DELETE FROM `wzry_main_hero` WHERE ( hero_id=17 ) [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-26T17:52:28+08:00 ] ::1 /wzry/index.php?s=/Main/Hero/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_user_hero` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `wzry_hero` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wzry_hero` ORDER BY hero_type, money  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_user_hero` WHERE ( hero_id=19 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_user_hero` WHERE ( hero_id=15 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_user_hero` WHERE ( hero_id=22 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_user_hero` WHERE ( hero_id=14 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_user_hero` WHERE ( hero_id=23 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_user_hero` WHERE ( hero_id=13 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_user_hero` WHERE ( hero_id=18 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_user_hero` WHERE ( hero_id=16 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\ffb43fc3525024f1fbadf4d3b831ae96.php 第 32 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\ffb43fc3525024f1fbadf4d3b831ae96.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-26T17:53:15+08:00 ] ::1 /wzry/index.php?s=/Main/Hero/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_user_hero` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wzry_hero` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wzry_hero` ORDER BY hero_type, money  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\ffb43fc3525024f1fbadf4d3b831ae96.php 第 32 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\ffb43fc3525024f1fbadf4d3b831ae96.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-26T17:53:17+08:00 ] ::1 /wzry/index.php?s=/Main/Hero/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\844384b027e804f08e4ea97fec121490.php 第 32 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\844384b027e804f08e4ea97fec121490.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-26T17:53:27+08:00 ] ::1 /wzry/index.php?s=/Main/Hero/dosave.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_hero` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate D:\php\personal\wzry\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\php\personal\wzry\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_name` = '刘禅'  [ RunTime:0.0010s ]
+SQL: INSERT INTO `wzry_hero` (`hero_name`,`hero_type`,`money`) VALUES ('刘禅','t','2888') [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-26T17:53:29+08:00 ] ::1 /wzry/index.php?s=/Main/Hero/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_user_hero` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `wzry_hero` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wzry_hero` ORDER BY hero_type, money  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_user_hero` WHERE ( hero_id=24 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\ffb43fc3525024f1fbadf4d3b831ae96.php 第 32 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\ffb43fc3525024f1fbadf4d3b831ae96.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-26T20:59:21+08:00 ] ::1 /wzry/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\e51589c1c6ce3f3fe5e0936addbdf170.php 第 32 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\e51589c1c6ce3f3fe5e0936addbdf170.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

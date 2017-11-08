@@ -1,0 +1,2780 @@
+[ 2017-08-17T08:09:53+08:00 ] ::1 /wzry/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\e51589c1c6ce3f3fe5e0936addbdf170.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\e51589c1c6ce3f3fe5e0936addbdf170.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-17T08:09:58+08:00 ] ::1 /wzry/index.php?s=/Main/Account/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0312s ]
+SQL: SELECT * FROM `wzry_account` ORDER BY type, account  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\170752e06422f098e43f5a6296486dbd.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\170752e06422f098e43f5a6296486dbd.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-17T08:10:01+08:00 ] ::1 /wzry/index.php?s=/Main/Account/showDetail/account_id/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_account` WHERE `account_id` = 24 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wzry_user` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( account_id=24 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( user_id=16 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wzry_hero` [ RunTime:0.0312s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 32 行.
+NOTIC: [8] Undefined variable: item D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-17T08:16:31+08:00 ] ::1 /wzry/index.php?s=/Main/Account/showDetail/account_id/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wzry_account` WHERE `account_id` = 24 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wzry_user` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( account_id=24 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( user_id=16 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wzry_hero` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 17 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 13 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 16 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-08-17T08:21:06+08:00 ] ::1 /wzry/index.php?s=/Main/Account/showDetail/account_id/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wzry_account` WHERE `account_id` = 24 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wzry_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( account_id=24 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( user_id=16 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wzry_hero` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `wzry_area` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wzry_area` WHERE `area_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 17 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 16 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 32 行.
+NOTIC: [8] Undefined variable: item D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-17T08:21:23+08:00 ] ::1 /wzry/index.php?s=/Main/Account/showDetail/account_id/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wzry_account` WHERE `account_id` = 24 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wzry_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( account_id=24 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( user_id=16 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wzry_hero` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `wzry_area` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wzry_area` WHERE `area_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 13 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-17T08:22:24+08:00 ] ::1 /wzry/index.php?s=/Main/Account/showDetail/account_id/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wzry_account` WHERE `account_id` = 24 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wzry_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( account_id=24 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( user_id=16 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wzry_hero` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `wzry_area` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wzry_area` WHERE `area_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 13 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 32 行.
+NOTIC: [8] Undefined variable: item D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-17T08:23:34+08:00 ] ::1 /wzry/index.php?s=/Main/Account/showDetail/account_id/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wzry_account` WHERE `account_id` = 24 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wzry_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( account_id=24 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( user_id=16 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wzry_hero` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `wzry_area` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wzry_area` WHERE `area_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 13 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-17T08:26:23+08:00 ] ::1 /wzry/index.php?s=/Main/Account/showDetail/account_id/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wzry_account` WHERE `account_id` = 24 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wzry_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( account_id=24 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( user_id=16 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wzry_hero` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `wzry_area` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wzry_area` WHERE `area_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 17 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 D:\php\personal\wzry\ThinkPHP\Library\Think\Template.class.php 第 527 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-17T08:26:46+08:00 ] ::1 /wzry/index.php?s=/Main/Account/showDetail/account_id/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wzry_account` WHERE `account_id` = 24 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wzry_user` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( account_id=24 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( user_id=16 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wzry_hero` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `wzry_area` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wzry_area` WHERE `area_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 32 行.
+NOTIC: [8] Undefined variable: item D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-17T08:28:03+08:00 ] ::1 /wzry/index.php?s=/Main/Account/showDetail/account_id/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wzry_account` WHERE `account_id` = 24 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wzry_user` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( account_id=24 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( user_id=16 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wzry_hero` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `wzry_area` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wzry_area` WHERE `area_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 17 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : Unescaped '&lt;' not allowed in attributes values D:\php\personal\wzry\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name=&quot;&lt;?php echo ($item[&quot;hero&quot;]); ? /&gt;&lt;/tpl&gt; D:\php\personal\wzry\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                 ^ D:\php\personal\wzry\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : attributes construct error D:\php\personal\wzry\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name=&quot;&lt;?php echo ($item[&quot;hero&quot;]); ? /&gt;&lt;/tpl&gt; D:\php\personal\wzry\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                 ^ D:\php\personal\wzry\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : Couldn't find end of Start Tag tag line 1 D:\php\personal\wzry\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name=&quot;&lt;?php echo ($item[&quot;hero&quot;]); ? /&gt;&lt;/tpl&gt; D:\php\personal\wzry\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                 ^ D:\php\personal\wzry\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : ParsePI: PI php never end ... D:\php\personal\wzry\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name=&quot;&lt;?php echo ($item[&quot;hero&quot;]); ? /&gt;&lt;/tpl&gt; D:\php\personal\wzry\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                                                       ^ D:\php\personal\wzry\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : Premature end of data in tag tpl line 1 D:\php\personal\wzry\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag name=&quot;&lt;?php echo ($item[&quot;hero&quot;]); ? /&gt;&lt;/tpl&gt; D:\php\personal\wzry\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                                                       ^ D:\php\personal\wzry\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+ERR: XML标签语法错误 : name="<?php echo ($item["hero"]); ?
+
+[ 2017-08-17T08:28:29+08:00 ] ::1 /wzry/index.php?s=/Main/Account/showDetail/account_id/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wzry_account` WHERE `account_id` = 24 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wzry_user` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( account_id=24 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( user_id=16 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wzry_hero` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `wzry_area` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wzry_area` WHERE `area_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 16 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 32 行.
+NOTIC: [8] Undefined variable: item D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 62 行.
+NOTIC: [8] Undefined index: name D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 75 行.
+NOTIC: [8] Undefined index: name D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 75 行.
+NOTIC: [8] Undefined index: name D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 75 行.
+NOTIC: [8] Undefined index: name D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 75 行.
+NOTIC: [8] Undefined index: name D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-17T08:29:13+08:00 ] ::1 /wzry/index.php?s=/Main/Account/showDetail/account_id/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `wzry_account` WHERE `account_id` = 24 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wzry_user` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( account_id=24 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( user_id=16 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wzry_hero` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `wzry_area` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wzry_area` WHERE `area_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 32 行.
+NOTIC: [8] Undefined variable: item D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 62 行.
+NOTIC: [8] Undefined index: name D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 75 行.
+NOTIC: [8] Undefined index: name D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 75 行.
+NOTIC: [8] Undefined index: name D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 75 行.
+NOTIC: [8] Undefined index: name D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 75 行.
+NOTIC: [8] Undefined index: name D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-17T08:29:16+08:00 ] ::1 /wzry/index.php?s=/Main/Account/showDetail/account_id/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `wzry_account` WHERE `account_id` = 24 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wzry_user` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( account_id=24 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( user_id=16 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wzry_hero` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `wzry_area` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wzry_area` WHERE `area_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 13 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 32 行.
+NOTIC: [8] Undefined variable: item D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 62 行.
+NOTIC: [8] Undefined index: name D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 75 行.
+NOTIC: [8] Undefined index: name D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 75 行.
+NOTIC: [8] Undefined index: name D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 75 行.
+NOTIC: [8] Undefined index: name D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 75 行.
+NOTIC: [8] Undefined index: name D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-17T08:32:25+08:00 ] ::1 /wzry/index.php?s=/Main/Account/showDetail/account_id/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wzry_account` WHERE `account_id` = 24 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wzry_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( account_id=24 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( user_id=16 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wzry_hero` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `wzry_area` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wzry_area` WHERE `area_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 16 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 32 行.
+NOTIC: [8] Undefined variable: item D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 62 行.
+NOTIC: [8] Undefined index: name D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 75 行.
+NOTIC: [8] Undefined index: name D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 75 行.
+NOTIC: [8] Undefined index: name D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 75 行.
+NOTIC: [8] Undefined index: name D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 75 行.
+NOTIC: [8] Undefined index: name D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-17T08:35:24+08:00 ] ::1 /wzry/index.php?s=/Main/Account/showDetail/account_id/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wzry_account` WHERE `account_id` = 24 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wzry_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( account_id=24 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( user_id=16 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wzry_hero` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `wzry_area` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wzry_area` WHERE `area_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 16 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 32 行.
+NOTIC: [8] Undefined variable: item D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-17T08:36:15+08:00 ] ::1 /wzry/index.php?s=/Main/Account/showDetail/account_id/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wzry_account` WHERE `account_id` = 24 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wzry_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( account_id=24 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( user_id=16 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wzry_hero` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `wzry_area` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wzry_area` WHERE `area_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 32 行.
+NOTIC: [8] Undefined variable: item D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-17T08:37:51+08:00 ] ::1 /wzry/index.php?s=/Main/Account/showDetail/account_id/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wzry_account` WHERE `account_id` = 24 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wzry_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( account_id=24 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( user_id=16 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wzry_hero` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `wzry_area` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wzry_area` WHERE `area_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 17 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 13 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 32 行.
+NOTIC: [8] Undefined variable: item D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-17T08:38:04+08:00 ] ::1 /wzry/index.php?s=/Main/Account/addUser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0120s ]
+SQL: SELECT `type` FROM `wzry_account` WHERE `account_id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wzry_area` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wzry_area` WHERE `type` = null ORDER BY area_no  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wzry_hero` [ RunTime:0.0050s ]
+SQL: SELECT `hero_id`,`hero_name`,`hero_type` FROM `wzry_hero` ORDER BY hero_type  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\fca0c5d558e28e6d1052794261c978dc.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\fca0c5d558e28e6d1052794261c978dc.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-17T08:38:20+08:00 ] ::1 /wzry/index.php?s=/Main/Account/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wzry_account` ORDER BY type, account  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\170752e06422f098e43f5a6296486dbd.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\170752e06422f098e43f5a6296486dbd.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-17T08:38:23+08:00 ] ::1 /wzry/index.php?s=/Main/Account/addUser/account_id/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0060s ]
+SQL: SELECT `type` FROM `wzry_account` WHERE `account_id` = 24 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wzry_area` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wzry_area` WHERE `type` = 1 ORDER BY area_no  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wzry_hero` [ RunTime:0.0060s ]
+SQL: SELECT `hero_id`,`hero_name`,`hero_type` FROM `wzry_hero` ORDER BY hero_type  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\fca0c5d558e28e6d1052794261c978dc.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\fca0c5d558e28e6d1052794261c978dc.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-08-17T08:38:38+08:00 ] ::1 /wzry/index.php?s=/Main/User/dosave.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_user` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: validate D:\php\personal\wzry\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\php\personal\wzry\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `wzry_user` (`account_id`,`area_id`,`name`,`level`,`money`,`diamond`,`hero`,`last_time`) VALUES ('24','3','234','324','234','1222','19, 18','1502930318') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wzry_user_hero` [ RunTime:0.0310s ]
+NOTIC: [8] Undefined index: validate D:\php\personal\wzry\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\php\personal\wzry\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `wzry_user_hero` (`user_id`,`hero_id`) VALUES ('17','19') [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: validate D:\php\personal\wzry\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\php\personal\wzry\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `wzry_user_hero` (`user_id`,`hero_id`) VALUES ('17','18') [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-17T08:38:40+08:00 ] ::1 /wzry/index.php?s=/Main/Account/addUser/account_id/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0050s ]
+SQL: SELECT `type` FROM `wzry_account` WHERE `account_id` = 24 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wzry_area` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wzry_area` WHERE `type` = 1 ORDER BY area_no  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wzry_hero` [ RunTime:0.0060s ]
+SQL: SELECT `hero_id`,`hero_name`,`hero_type` FROM `wzry_hero` ORDER BY hero_type  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\fca0c5d558e28e6d1052794261c978dc.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\fca0c5d558e28e6d1052794261c978dc.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-17T08:38:43+08:00 ] ::1 /wzry/index.php?s=/Main/Account/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wzry_account` ORDER BY type, account  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\170752e06422f098e43f5a6296486dbd.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\170752e06422f098e43f5a6296486dbd.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-08-17T08:38:47+08:00 ] ::1 /wzry/index.php?s=/Main/Account/showDetail/account_id/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wzry_account` WHERE `account_id` = 24 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wzry_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( account_id=24 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( user_id=16 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wzry_hero` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `wzry_area` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wzry_area` WHERE `area_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 17 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 13 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( user_id=17 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_area` WHERE `area_id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 19 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 18 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 32 行.
+NOTIC: [8] Undefined variable: item D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-17T08:39:03+08:00 ] ::1 /wzry/index.php?s=/Main/Area/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_area` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wzry_area` ORDER BY type, area_no  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 32 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 86 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 87 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 88 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 86 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 87 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 88 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 86 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 87 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 88 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 86 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 87 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 88 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 86 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 87 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 88 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 86 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 87 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 88 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 86 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 87 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 88 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 86 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 87 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-17T08:39:05+08:00 ] ::1 /wzry/index.php?s=/Main/User/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_user` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wzry_user` ORDER BY account_id, area_id  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 32 行.
+NOTIC: [8] Undefined index: type D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 80 行.
+NOTIC: [8] Undefined index: type D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 81 行.
+NOTIC: [8] Undefined index: area_no D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 83 行.
+NOTIC: [8] Undefined index: area_name D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 84 行.
+NOTIC: [8] Undefined index: type D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 80 行.
+NOTIC: [8] Undefined index: type D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 81 行.
+NOTIC: [8] Undefined index: area_no D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 83 行.
+NOTIC: [8] Undefined index: area_name D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-17T08:39:07+08:00 ] ::1 /wzry/index.php?s=/Main/Hero/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wzry_hero` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wzry_hero` ORDER BY hero_type, money  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\ffb43fc3525024f1fbadf4d3b831ae96.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\ffb43fc3525024f1fbadf4d3b831ae96.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-17T08:39:09+08:00 ] ::1 /wzry/index.php?s=/Main/Account/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wzry_account` ORDER BY type, account  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\170752e06422f098e43f5a6296486dbd.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\170752e06422f098e43f5a6296486dbd.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-17T08:39:12+08:00 ] ::1 /wzry/index.php?s=/Main/Account/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wzry_account` ORDER BY type, account  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\170752e06422f098e43f5a6296486dbd.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\170752e06422f098e43f5a6296486dbd.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-17T08:39:13+08:00 ] ::1 /wzry/index.php?s=/Main/User/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wzry_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wzry_user` ORDER BY account_id, area_id  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 32 行.
+NOTIC: [8] Undefined index: type D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 80 行.
+NOTIC: [8] Undefined index: type D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 81 行.
+NOTIC: [8] Undefined index: area_no D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 83 行.
+NOTIC: [8] Undefined index: area_name D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 84 行.
+NOTIC: [8] Undefined index: type D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 80 行.
+NOTIC: [8] Undefined index: type D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 81 行.
+NOTIC: [8] Undefined index: area_no D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 83 行.
+NOTIC: [8] Undefined index: area_name D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-17T08:43:08+08:00 ] ::1 /wzry/index.php?s=/Main/Account/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wzry_account` ORDER BY type, account  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\170752e06422f098e43f5a6296486dbd.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\170752e06422f098e43f5a6296486dbd.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-17T08:43:10+08:00 ] ::1 /wzry/index.php?s=/Main/Account/showDetail/account_id/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wzry_account` WHERE `account_id` = 24 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wzry_user` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( account_id=24 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( user_id=16 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wzry_hero` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `wzry_area` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wzry_area` WHERE `area_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 16 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( user_id=17 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_area` WHERE `area_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 19 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 18 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 32 行.
+NOTIC: [8] Undefined variable: item D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-17T08:43:29+08:00 ] ::1 /wzry/index.php?s=/Main/Account/showDetail/account_id/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wzry_account` WHERE `account_id` = 24 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wzry_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( account_id=24 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( user_id=16 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wzry_hero` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `wzry_area` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wzry_area` WHERE `area_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 13 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( user_id=17 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_area` WHERE `area_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 19 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 18 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 32 行.
+NOTIC: [8] Undefined variable: item D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-17T08:43:33+08:00 ] ::1 /wzry/index.php?s=/Main/User/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-17T08:43:57+08:00 ] ::1 /wzry/index.php?s=/Main/User/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wzry_user` ORDER BY account_id, area_id  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( user_id=16 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wzry_hero` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `wzry_area` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wzry_area` WHERE `area_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 17 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 13 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( user_id=17 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_area` WHERE `area_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 19 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 18 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-17T08:48:25+08:00 ] ::1 /wzry/index.php?s=/Main/User/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wzry_user` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wzry_user` ORDER BY account_id, area_id  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( user_id=16 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wzry_hero` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `wzry_area` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wzry_area` WHERE `area_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 17 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 13 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( user_id=17 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_area` WHERE `area_id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 19 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 18 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-17T08:48:37+08:00 ] ::1 /wzry/index.php?s=/Main/User/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wzry_user` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wzry_user` ORDER BY account_id, area_id  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( user_id=16 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wzry_hero` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wzry_area` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wzry_area` WHERE `area_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 17 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 16 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( user_id=17 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_area` WHERE `area_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 19 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 18 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-17T08:48:49+08:00 ] ::1 /wzry/index.php?s=/Main/User/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wzry_user` ORDER BY account_id, area_id  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( user_id=16 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wzry_hero` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `wzry_area` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wzry_area` WHERE `area_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 13 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( user_id=17 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_area` WHERE `area_id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 19 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 18 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-08-17T08:50:46+08:00 ] ::1 /wzry/index.php?s=/Main/User/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wzry_user` ORDER BY account_id, area_id  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( user_id=16 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wzry_hero` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `wzry_area` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wzry_area` WHERE `area_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wzry_account` WHERE `account_id` = 24 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 16 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( user_id=17 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_area` WHERE `area_id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_account` WHERE `account_id` = 24 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 19 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 18 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 32 行.
+NOTIC: [8] Undefined index: account D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 89 行.
+NOTIC: [8] Undefined index: account D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-08-17T08:50:58+08:00 ] ::1 /wzry/index.php?s=/Main/User/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wzry_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wzry_user` ORDER BY account_id, area_id  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( user_id=16 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wzry_hero` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `wzry_area` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wzry_area` WHERE `area_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wzry_account` WHERE `account_id` = 24 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 16 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( user_id=17 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_area` WHERE `area_id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_account` WHERE `account_id` = 24 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 19 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 18 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-17T08:54:03+08:00 ] ::1 /wzry/index.php?s=/Main/User/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `wzry_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wzry_user` ORDER BY account_id, area_id  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( user_id=16 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wzry_hero` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `wzry_area` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wzry_area` WHERE `area_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wzry_account` WHERE `account_id` = 24 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 17 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 13 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( user_id=17 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_area` WHERE `area_id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_account` WHERE `account_id` = 24 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 19 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 18 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-17T08:54:08+08:00 ] ::1 /wzry/index.php?s=/Main/User/dodel/account_id/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:dodel
+
+[ 2017-08-17T08:54:24+08:00 ] ::1 /wzry/index.php?s=/Main/User/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wzry_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wzry_user` ORDER BY account_id, area_id  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( user_id=16 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wzry_hero` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `wzry_area` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wzry_area` WHERE `area_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wzry_account` WHERE `account_id` = 24 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( user_id=17 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_area` WHERE `area_id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_account` WHERE `account_id` = 24 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 19 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 18 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-17T08:54:26+08:00 ] ::1 /wzry/index.php?s=/Main/User/dodel/account_id/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:dodel
+
+[ 2017-08-17T08:54:40+08:00 ] ::1 /wzry/index.php?s=/Main/User/dodel/account_id/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_user` [ RunTime:0.0120s ]
+SQL: DELETE FROM `wzry_user` WHERE `user_id` = 0 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-17T08:55:09+08:00 ] ::1 /wzry/index.php?s=/Main/User/dodel/account_id/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_user` [ RunTime:0.0130s ]
+
+[ 2017-08-17T08:55:40+08:00 ] ::1 /wzry/index.php?s=/Main/User/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wzry_user` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wzry_user` ORDER BY account_id, area_id  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( user_id=16 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wzry_hero` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wzry_area` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wzry_area` WHERE `area_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wzry_account` WHERE `account_id` = 24 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 16 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( user_id=17 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_area` WHERE `area_id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_account` WHERE `account_id` = 24 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 19 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 18 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-17T08:55:43+08:00 ] ::1 /wzry/index.php?s=/Main/User/dodel/user_id/16.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_user` [ RunTime:0.0130s ]
+
+[ 2017-08-17T08:56:15+08:00 ] ::1 /wzry/index.php?s=/Main/User/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_user` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wzry_user` ORDER BY account_id, area_id  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( user_id=16 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wzry_hero` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `wzry_area` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wzry_area` WHERE `area_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wzry_account` WHERE `account_id` = 24 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 13 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( user_id=17 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_area` WHERE `area_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_account` WHERE `account_id` = 24 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 19 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 18 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-17T08:56:17+08:00 ] ::1 /wzry/index.php?s=/Main/User/dodel/user_id/17.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_user` [ RunTime:0.0100s ]
+SQL: DELETE FROM `wzry_user` WHERE `user_id` = 17 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wzry_user_hero` [ RunTime:0.0140s ]
+SQL: DELETE FROM `wzry_user_hero` WHERE `user_id` = 17 [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-17T08:56:19+08:00 ] ::1 /wzry/index.php?s=/Main/User/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wzry_user` ORDER BY account_id, area_id  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( user_id=16 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wzry_hero` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `wzry_area` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wzry_area` WHERE `area_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wzry_account` WHERE `account_id` = 24 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 13 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-17T08:56:37+08:00 ] ::1 /wzry/index.php?s=/Main/User/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_user` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wzry_user` ORDER BY account_id, area_id  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( user_id=16 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wzry_hero` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `wzry_area` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wzry_area` WHERE `area_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wzry_account` WHERE `account_id` = 24 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 17 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 13 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 16 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-17T08:57:17+08:00 ] ::1 /wzry/index.php?s=/Main/Account/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wzry_account` ORDER BY type, account  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\170752e06422f098e43f5a6296486dbd.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\170752e06422f098e43f5a6296486dbd.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-17T08:57:22+08:00 ] ::1 /wzry/index.php?s=/Main/Account/edit/account_id/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:edit
+
+[ 2017-08-17T08:57:31+08:00 ] ::1 /wzry/index.php?s=/Main/Account/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wzry_account` ORDER BY type, account  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\170752e06422f098e43f5a6296486dbd.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\170752e06422f098e43f5a6296486dbd.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-17T08:57:34+08:00 ] ::1 /wzry/index.php?s=/Main/Account/showDetail/account_id/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wzry_account` WHERE `account_id` = 24 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wzry_user` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( account_id=24 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( user_id=16 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wzry_hero` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wzry_area` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wzry_area` WHERE `area_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_account` WHERE `account_id` = 24 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 16 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 32 行.
+NOTIC: [8] Undefined variable: item D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-17T08:57:41+08:00 ] ::1 /wzry/index.php?s=/Main/Area/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_area` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wzry_area` ORDER BY type, area_no  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 32 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 86 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 87 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 88 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 86 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 87 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 88 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 86 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 87 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 88 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 86 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 87 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 88 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 86 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 87 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 88 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 86 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 87 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 88 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 86 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 87 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 88 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 86 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 87 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-17T08:57:45+08:00 ] ::1 /wzry/index.php?s=/Main/User/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wzry_user` ORDER BY account_id, area_id  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( user_id=16 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wzry_hero` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wzry_area` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wzry_area` WHERE `area_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wzry_account` WHERE `account_id` = 24 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-17T08:58:08+08:00 ] ::1 /wzry/index.php?s=/Main/User/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wzry_user` ORDER BY account_id, area_id  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( user_id=16 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wzry_hero` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `wzry_area` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wzry_area` WHERE `area_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wzry_account` WHERE `account_id` = 24 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 17 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 16 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-17T08:58:28+08:00 ] ::1 /wzry/index.php?s=/Main/Account/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wzry_account` ORDER BY type, account  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\170752e06422f098e43f5a6296486dbd.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\170752e06422f098e43f5a6296486dbd.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-17T08:58:31+08:00 ] ::1 /wzry/index.php?s=/Main/Account/showDetail/account_id/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wzry_account` WHERE `account_id` = 24 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wzry_user` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( account_id=24 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( user_id=16 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wzry_hero` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `wzry_area` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wzry_area` WHERE `area_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_account` WHERE `account_id` = 24 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 16 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 32 行.
+NOTIC: [8] Undefined variable: item D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-17T08:58:34+08:00 ] ::1 /wzry/index.php?s=/Main/User/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_user` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wzry_user` ORDER BY account_id, area_id  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( user_id=16 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wzry_hero` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `wzry_area` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wzry_area` WHERE `area_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wzry_account` WHERE `account_id` = 24 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 16 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-17T08:58:37+08:00 ] ::1 /wzry/index.php?s=/Main/Hero/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_hero` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wzry_hero` ORDER BY hero_type, money  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\ffb43fc3525024f1fbadf4d3b831ae96.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\ffb43fc3525024f1fbadf4d3b831ae96.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-17T08:58:40+08:00 ] ::1 /wzry/index.php?s=/Main/Account/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `wzry_account` ORDER BY type, account  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\170752e06422f098e43f5a6296486dbd.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\170752e06422f098e43f5a6296486dbd.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-17T09:09:44+08:00 ] ::1 /wzry/index.php?s=/Main/Account/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wzry_account` ORDER BY type, account  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\170752e06422f098e43f5a6296486dbd.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\170752e06422f098e43f5a6296486dbd.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-17T09:09:48+08:00 ] ::1 /wzry/index.php?s=/Main/Account/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wzry_account` ORDER BY type, account  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\170752e06422f098e43f5a6296486dbd.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\170752e06422f098e43f5a6296486dbd.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-17T09:10:01+08:00 ] ::1 /wzry/index.php?s=/Main/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\e51589c1c6ce3f3fe5e0936addbdf170.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\e51589c1c6ce3f3fe5e0936addbdf170.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-17T09:10:04+08:00 ] ::1 /wzry/index.php?s=/Main/Account/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wzry_account` ORDER BY type, account  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\170752e06422f098e43f5a6296486dbd.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\170752e06422f098e43f5a6296486dbd.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-17T09:10:06+08:00 ] ::1 /wzry/index.php?s=/Main/Area/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `wzry_area` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wzry_area` ORDER BY type, area_no  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 32 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 86 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 87 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 88 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 86 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 87 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 88 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 86 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 87 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 88 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 86 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 87 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 88 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 86 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 87 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 88 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 86 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 87 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 88 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 86 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 87 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 88 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 86 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 87 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-17T09:10:08+08:00 ] ::1 /wzry/index.php?s=/Main/User/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wzry_user` ORDER BY account_id, area_id  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( user_id=16 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wzry_hero` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `wzry_area` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wzry_area` WHERE `area_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wzry_account` WHERE `account_id` = 24 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 17 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 13 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\21aa3caf593a53d9179fc2664b6deed5.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-17T09:10:10+08:00 ] ::1 /wzry/index.php?s=/Main/Hero/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wzry_hero` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wzry_hero` ORDER BY hero_type, money  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\ffb43fc3525024f1fbadf4d3b831ae96.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\ffb43fc3525024f1fbadf4d3b831ae96.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-17T09:10:12+08:00 ] ::1 /wzry/index.php?s=/Main/Account/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wzry_account` ORDER BY type, account  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\170752e06422f098e43f5a6296486dbd.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\170752e06422f098e43f5a6296486dbd.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-17T09:10:14+08:00 ] ::1 /wzry/index.php?s=/Main/Account/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wzry_account` ORDER BY type, account  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\170752e06422f098e43f5a6296486dbd.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\170752e06422f098e43f5a6296486dbd.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-17T09:10:26+08:00 ] ::1 /wzry/index.php?s=/Main/Account/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wzry_account` ORDER BY type, account  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\170752e06422f098e43f5a6296486dbd.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\170752e06422f098e43f5a6296486dbd.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-08-17T09:10:32+08:00 ] ::1 /wzry/index.php?s=/Main/Account/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `wzry_account` ORDER BY type, account  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\170752e06422f098e43f5a6296486dbd.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\170752e06422f098e43f5a6296486dbd.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-17T09:18:05+08:00 ] ::1 /wzry/index.php?s=/Main/Account/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wzry_account` ORDER BY type, account  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\170752e06422f098e43f5a6296486dbd.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\170752e06422f098e43f5a6296486dbd.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-17T09:18:07+08:00 ] ::1 /wzry/index.php?s=/Main/Data/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\bd342e590c4ab57a8029e2c001efade7.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\bd342e590c4ab57a8029e2c001efade7.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-17T16:47:11+08:00 ] ::1 /wzry/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\e51589c1c6ce3f3fe5e0936addbdf170.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\e51589c1c6ce3f3fe5e0936addbdf170.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-17T16:47:14+08:00 ] ::1 /wzry/index.php?s=/Main/Account/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `wzry_account` ORDER BY type, account  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\170752e06422f098e43f5a6296486dbd.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\170752e06422f098e43f5a6296486dbd.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-17T16:47:18+08:00 ] ::1 /wzry/index.php?s=/Main/Area/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_area` [ RunTime:0.0380s ]
+SQL: SELECT * FROM `wzry_area` ORDER BY type, area_no  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 32 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 86 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 87 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 88 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 86 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 87 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 88 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 86 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 87 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 88 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 86 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 87 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 88 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 86 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 87 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 88 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 86 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 87 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 88 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 86 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 87 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 88 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 86 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 87 行.
+NOTIC: [8] Undefined index: account_id D:\php\personal\wzry\Application\Runtime\Cache\Main\b7cdd96044b941c9b2c651a2297c707d.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-17T16:47:20+08:00 ] ::1 /wzry/index.php?s=/Main/Account/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wzry_account` ORDER BY type, account  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\170752e06422f098e43f5a6296486dbd.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\170752e06422f098e43f5a6296486dbd.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-17T16:47:23+08:00 ] ::1 /wzry/index.php?s=/Main/Account/addUser/account_id/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0090s ]
+SQL: SELECT `type` FROM `wzry_account` WHERE `account_id` = 24 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wzry_area` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wzry_area` WHERE `type` = 1 ORDER BY area_no  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wzry_hero` [ RunTime:0.0430s ]
+SQL: SELECT `hero_id`,`hero_name`,`hero_type` FROM `wzry_hero` ORDER BY hero_type  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\fca0c5d558e28e6d1052794261c978dc.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\fca0c5d558e28e6d1052794261c978dc.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-17T16:47:25+08:00 ] ::1 /wzry/index.php?s=/Main/Account/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wzry_account` ORDER BY type, account  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\170752e06422f098e43f5a6296486dbd.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\170752e06422f098e43f5a6296486dbd.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-17T16:47:27+08:00 ] ::1 /wzry/index.php?s=/Main/Account/showDetail/account_id/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wzry_account` WHERE `account_id` = 24 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wzry_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( account_id=24 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_user` WHERE ( user_id=16 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wzry_hero` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `wzry_area` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wzry_area` WHERE `area_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_account` WHERE `account_id` = 24 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 13 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wzry_hero` WHERE `hero_id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 32 行.
+NOTIC: [8] Undefined variable: item D:\php\personal\wzry\Application\Runtime\Cache\Main\355b89019ab87e99d883efc5cbe2a8be.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-17T16:47:30+08:00 ] ::1 /wzry/index.php?s=/Main/Account/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wzry_account` ORDER BY type, account  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\170752e06422f098e43f5a6296486dbd.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\170752e06422f098e43f5a6296486dbd.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-17T16:49:03+08:00 ] ::1 /wzry/index.php?s=/Main/Account/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wzry_account` ORDER BY type, account  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\170752e06422f098e43f5a6296486dbd.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\170752e06422f098e43f5a6296486dbd.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-17T16:49:06+08:00 ] ::1 /wzry/index.php?s=/Main/Account/edit/account_id/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:edit
+
+[ 2017-08-17T16:54:05+08:00 ] ::1 /wzry/index.php?s=/Main/Account/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `wzry_account` ORDER BY type, account  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\170752e06422f098e43f5a6296486dbd.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\170752e06422f098e43f5a6296486dbd.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-17T16:54:07+08:00 ] ::1 /wzry/index.php?s=/Main/Account/edit/account_id/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wzry_account` WHERE `account_id` = 24 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\b95a0df269411ca5856e0e99ad018717.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\b95a0df269411ca5856e0e99ad018717.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-17T16:55:22+08:00 ] ::1 /wzry/index.php?s=/Main/Account/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wzry_account` ORDER BY type, account  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\170752e06422f098e43f5a6296486dbd.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\170752e06422f098e43f5a6296486dbd.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-17T16:55:23+08:00 ] ::1 /wzry/index.php?s=/Main/Account/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\b95a0df269411ca5856e0e99ad018717.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\b95a0df269411ca5856e0e99ad018717.php 第 32 行.
+NOTIC: [8] Undefined variable: account D:\php\personal\wzry\Application\Runtime\Cache\Main\b95a0df269411ca5856e0e99ad018717.php 第 65 行.
+NOTIC: [8] Undefined variable: account D:\php\personal\wzry\Application\Runtime\Cache\Main\b95a0df269411ca5856e0e99ad018717.php 第 66 行.
+NOTIC: [8] Undefined variable: account D:\php\personal\wzry\Application\Runtime\Cache\Main\b95a0df269411ca5856e0e99ad018717.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-17T16:55:30+08:00 ] ::1 /wzry/index.php?s=/Main/Account/dosave.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate D:\php\personal\wzry\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\php\personal\wzry\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `wzry_account` WHERE `type` = '2' AND `account` = '499811380'  [ RunTime:0.0000s ]
+SQL: INSERT INTO `wzry_account` (`type`,`account`) VALUES ('2','499811380') [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-17T16:55:33+08:00 ] ::1 /wzry/index.php?s=/Main/Account/showAll.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wzry_account` ORDER BY type, account  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\170752e06422f098e43f5a6296486dbd.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\170752e06422f098e43f5a6296486dbd.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-17T16:55:35+08:00 ] ::1 /wzry/index.php?s=/Main/Account/edit/account_id/25.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wzry_account` WHERE `account_id` = 25 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\b95a0df269411ca5856e0e99ad018717.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\b95a0df269411ca5856e0e99ad018717.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-17T16:55:40+08:00 ] ::1 /wzry/index.php?s=/Main/Account/edit/account_id/25.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wzry_account` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wzry_account` WHERE `account_id` = 25 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\b95a0df269411ca5856e0e99ad018717.php 第 31 行.
+NOTIC: [8] Undefined variable: pageTitle D:\php\personal\wzry\Application\Runtime\Cache\Main\b95a0df269411ca5856e0e99ad018717.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

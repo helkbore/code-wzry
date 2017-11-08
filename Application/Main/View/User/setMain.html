@@ -1,0 +1,76 @@
+<layout name="Base/layout"/>
+<div>
+<form id="main_hero" method="post" action="{:U('saveSetMain')}">
+	<input type="hidden" name="user_id" value="{$user.user_id}" />
+	<p>每个角色可设置两个主玩英雄</p>
+	<ul>
+	<p>角色信息</p>
+		<li>
+			<if condition="$user.type eq 1">微信
+			<elseif condition="$user.type eq 2" />QQ
+			</if>
+			-{$user.account}-{$user.area_no}区: {$user.area_name}
+		</li>
+		
+		<li>{$user.name}-{$user.level}级 -{$user.money}金- {$user.diamond}钻</li>
+		
+		<li>
+			<ul>
+				<foreach name="user['hero']" item="hero">
+					<li><input type="checkbox" value="{$hero['hero_id']}" name="main_hero[]"/>{$hero['hero_name']}</li>
+				</foreach>
+			</ul>
+		</li>
+	</ul>
+
+	<button>设为主玩</button>
+</form>
+</div>
+
+<script>
+// 检查复选框不能超过三个
+var checked_array = [];
+var checkboxes = $("input[type='checkbox']");
+var i, j,jquery_checkboxex;
+
+
+// 获取已选复选框数组
+function doCheck() {
+	var main_hero_limit = 2;
+	for ( i = 0, j = 0; i < checkboxes.length; i++ ) {
+		if ( checkboxes[i].checked ) {
+			checked_array[j] = checkboxes[i];
+			j++;
+		}
+	}
+
+	if ( checked_array.length > main_hero_limit ) {
+		return false;
+	}
+	
+	return checked_array;
+}
+
+
+// console.log(checked_array);
+
+for (i = 0; i < checkboxes.length; i++ ) {
+	jquery_checkboxex = $(checkboxes[i]);
+	jquery_checkboxex.bind('change', function() {
+		var result = doCheck();
+		if (!result) {
+			alert('主玩英雄超出数量');
+		}
+	});
+}
+
+$('#main_hero').bind('submit', function(e){
+	if ( !doCheck() ) {
+		e.preventDefault();
+		e.stopPropagation(); 
+		return false;
+	}
+	
+});
+
+</script>

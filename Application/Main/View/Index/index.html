@@ -1,0 +1,382 @@
+<layout name="Base/layout"/>
+<div class="container">
+	<!-- 搜索框 -->
+	<div class="panel panel-default"><div class="panel-body">
+		<form class="form-inline" action="{:U('Index/saveUpuser')}" id="upuser_submit" method="post">
+			<div class="form-group">
+				<label class="" for="type">待更新的角色  </label>
+				<select  name="type" class="form-control" id="type">
+					<option value="1">微信</option>
+					<option value="2">QQ</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label class="sr-only" for="account">账号</label>
+				<input type="text" class="form-control input-size-max" id="account" placeholder="账号" name="account">
+			</div>
+			<div class="form-group">
+				<label class="sr-only" for="area_no">大区</label>
+				<input type="text" class="form-control input-size-min" id="area_no" placeholder="大区" name="area_no">
+			</div>
+			
+			<div class="form-group">
+				<label class="sr-only" for="user_name">角色名</label>
+				<input type="text" class="form-control input-size- mid" id="user_name" placeholder="角色名" name="user_name">
+			</div>
+			<button type="submit" class="btn btn-primary"  id="submit_upuser_btn">提交</button>
+		</form>
+	</div></div>
+	
+	<!-- custom 左列 -->
+	<div class="row">
+		<div class="col-xs-12 col-sm-6 col-md-3">
+			<h2 class="sr-only">待更新User</h2>
+			<ul class="list-group">
+				<foreach name="update_hero" item="update_hero">
+				<li class="list-group-item">
+					<div>
+						<span class="font-mid ">{$update_hero.user_name}</span>
+						<span class="font-min list-date ">{:date('Y-m-d',$update_hero['last_time'])}</span>
+					</div>
+					<div class="padding-mid " >
+						<if condition="$update_hero.type eq 1"><i class="fa fa-weixin color-red font-icon-common" aria-hidden="true"></i>
+						<elseif condition="$update_hero.type eq 2" /><i class="fa fa-qq  color-red font-icon-common" aria-hidden="true"></i>
+						</if>
+					
+						<span>{$update_hero.account}-{$update_hero.area_no}区</span>
+					</div>
+				</li>
+				</foreach>
+			</ul>
+			
+			<ul class="list-group">
+				<p class="list-group-item title">未拥有的英雄</p>
+				<foreach name="unown_hero" item="unown_hero">
+					<li class="list-group-item">
+						{$unown_hero.hero_name}{$unown_hero.money}
+					</li>
+				
+				</foreach>
+			</ul>
+			
+			<ul class="list-group">
+				<p class="list-group-item title">购买英雄参考角色</p>
+				<li class="list-group-item">13888</li>
+				<foreach name="buy_hero" item="buy_hero">
+					<li class="list-group-item">
+						{$buy_hero.area_no}区
+						<if condition="$buy_hero.type eq 1"><i class="fa fa-weixin color-red font-icon-common" aria-hidden="true"></i>
+						<elseif condition="$buy_hero.type eq 2" /><i class="fa fa-qq color-red font-icon-common" aria-hidden="true"></i>
+						</if>
+						{$buy_hero.account}
+						<i class="fa fa-dollar  color-red font-icon-common" aria-hidden="true"></i>{$buy_hero.money}
+						<i class="fa fa-user color-red"></i> {$buy_hero.hcount}
+						
+					</li>
+				
+				</foreach>
+				
+				<li class="list-group-item">18888</li>
+				<foreach name="buy_hero_eight" item="buy_hero_eight">
+					<li class="list-group-item">
+						{$buy_hero_eight.area_no}区
+						<if condition="$buy_hero_eight.type eq 1"><i class="fa fa-weixin color-red font-icon-common" aria-hidden="true"></i>
+						<elseif condition="$buy_hero_eight.type eq 2" /><i class="fa fa-qq color-red font-icon-common" aria-hidden="true"></i>
+						</if>
+						{$buy_hero_eight.account}
+						<i class="fa fa-dollar  color-red font-icon-common" aria-hidden="true"></i>{$buy_hero_eight.money}
+						<i class="fa fa-user color-red"></i> {$buy_hero_eight.hcount}
+						
+					</li>
+				
+				</foreach>
+			</ul>
+			
+			<ul class="list-group">
+				<p class="list-group-item title">主号</p>
+				<foreach name="max_level_user" item="max_level_user">
+					<li class="list-group-item">
+						{$max_level_user.area_no}区
+						<if condition="$max_level_user.type eq 1"><i class="fa fa-weixin color-red font-icon-common" aria-hidden="true"></i>
+						<elseif condition="$max_level_user.type eq 2" /><i class="fa fa-qq color-red font-icon-common" aria-hidden="true"></i>
+						</if>
+						{$max_level_user.account}
+						<i class="fa fa-dollar  color-red font-icon-common" aria-hidden="true"></i>{$max_level_user.money}
+						<i class="fa fa-level-up color-red"></i> {$max_level_user.level}
+						
+					</li>
+				
+				</foreach>
+			</ul>
+			
+			<ul class="list-group">
+				<p class="list-group-item title">获取英雄数前10的角色</p>
+				<foreach name="hero_list" item="hero_list">
+					<li class="list-group-item">
+						{$hero_list.area_no}区
+						<if condition="$hero_list.type eq 1"><i class="fa fa-weixin color-red font-icon-common" aria-hidden="true"></i>
+						<elseif condition="$hero_list.type eq 2" /><i class="fa fa-qq color-red font-icon-common" aria-hidden="true"></i>
+						</if>
+						{$hero_list.account}
+						<i class="fa fa-dollar  color-red font-icon-common" aria-hidden="true"></i>{$hero_list.money}
+						<i class="fa fa-user color-red"></i> {$hero_list.hcount}
+						
+					</li>
+				
+				</foreach>
+			</ul>
+			
+			<ul class="list-group">
+				<p class="list-group-item title">获取铭文前10</p>
+				<foreach name="mingwen_list" item="mingwen_list">
+					<li class="list-group-item">
+						{$mingwen_list.area_no}区
+						<if condition="$mingwen_list.type eq 1"><i class="fa fa-weixin color-red font-icon-common" aria-hidden="true"></i>
+						<elseif condition="$mingwen_list.type eq 2" /><i class="fa fa-qq color-red font-icon-common" aria-hidden="true"></i>
+						</if>
+						{$mingwen_list.account}
+						<i class="fa fa-dollar  color-red font-icon-common" aria-hidden="true"></i>{$mingwen_list.money}
+						<i class="fa fa-lemon-o color-red"></i> {$mingwen_list.mingwen}
+						
+					</li>
+				
+				</foreach>
+			</ul>
+			
+			<ul class="list-group">
+				<p class="list-group-item title">获取总场数前10</p>
+				<foreach name="changshu_list" item="changshu_list">
+					<li class="list-group-item">
+						{$changshu_list.area_no}区
+						<if condition="$changshu_list.type eq 1"><i class="fa fa-weixin color-red font-icon-common" aria-hidden="true"></i>
+						<elseif condition="$changshu_list.type eq 2" /><i class="fa fa-qq color-red font-icon-common" aria-hidden="true"></i>
+						</if>
+						{$changshu_list.account}
+						<i class="fa fa-dollar  color-red font-icon-common" aria-hidden="true"></i>{$changshu_list.money}
+						<i class="fa fa-pie-chart color-red"></i> {$changshu_list.changshu}
+						
+					</li>
+				
+				</foreach>
+			</ul>
+			
+			<ul class="list-group">
+				<p class="list-group-item title">账号角色数排行</p>
+				<foreach name="user_count" item="user_count">
+					<li class="list-group-item">
+						
+						<if condition="$user_count.type eq 1"><i class="fa fa-weixin color-red font-icon-common" aria-hidden="true"></i>
+						<elseif condition="$user_count.type eq 2" /><i class="fa fa-qq color-red font-icon-common" aria-hidden="true"></i>
+						</if>
+						{$user_count.account}
+						<i class="fa fa-venus-mars color-red font-icon-common" aria-hidden="true"></i>
+						{$user_count.user_count}
+						
+						
+					</li>
+				
+				</foreach>
+			</ul>
+			
+		</div>
+		
+		<!-- cutom 中列 -->
+		<div class="col-xs-12 col-sm-6 col-md-6 span-list" >
+		
+			
+			
+			<!-- custom 金 -->
+			<div class="row">
+				<div class="col-xs-12 col-md-6">
+					<ul class="list-group">
+						<p class="list-group-item title">微信</p>
+						<foreach name="wx_money_list" item="wx_money_list">
+							<li class="list-group-item">
+								{$wx_money_list.account}:{$wx_money_list.area_no}区 {$wx_money_list.name} : 
+								
+								<span class=""><i class="fa fa-dollar  color-red font-icon-common" aria-hidden="true"></i> {$wx_money_list.money}</span>
+							</li>
+						</foreach>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-md-6">
+					<ul class="list-group">
+						<p class="list-group-item title">QQ</p>
+						<foreach name="qq_money_list" item="qq_money_list">
+						<li class="list-group-item">
+							{$qq_money_list.account}: {$qq_money_list.area_no}区 {$qq_money_list.name} : 
+							<span class=""><i class="fa fa-dollar  color-red font-icon-common" aria-hidden="true"></i> {$qq_money_list.money}
+						</li>
+						</foreach>
+					</ul>
+				</div>
+			</div>
+			
+			
+			<!-- custom 钻 -->
+			<div class="row">
+				<div class="col-xs-12 col-md-6">
+					<ul class="list-group">
+						<p class="list-group-item title">微信</p>
+						<foreach name="wx_diamond_list" item="wx_diamond_list">
+							<li class="list-group-item">
+								{$wx_diamond_list.account}: {$wx_diamond_list.name} : 
+								<span class=""><i class="fa fa-diamond  color-red font-icon-common" aria-hidden="true"></i> {$wx_diamond_list.diamond}</span>
+							</li>
+						</foreach>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-md-6">
+					<ul class="list-group">
+						<p class="list-group-item title">QQ</p>
+						<foreach name="qq_diamond_list" item="qq_diamond_list">
+						<li class="list-group-item">
+							{$qq_diamond_list.account}: {$qq_diamond_list.name} : 
+							<span class=""><i class="fa fa-diamond color-red font-icon-common" aria-hidden="true"></i> {$qq_diamond_list.diamond}
+						</li>
+						</foreach>
+					</ul>
+				</div>
+			</div>
+			
+			
+			
+			<!-- custom 等级 -->
+			<div class="row">
+				<div class="col-xs-12 col-md-6">
+					<ul class="list-group">
+						<p class="list-group-item title">微信</p>
+						<foreach name="wx_level_list" item="wx_level_list">
+							<li class="list-group-item">
+								{$wx_level_list.account}: {$wx_level_list.name} : 
+								<span class=""><i class="fa fa-gbp  color-red font-icon-common" aria-hidden="true"></i> {$wx_level_list.level}</span>
+							</li>
+						</foreach>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-md-6">
+					<ul class="list-group">
+						<p class="list-group-item title">QQ</p>
+						<foreach name="qq_level_list" item="qq_level_list">
+						<li class="list-group-item">
+							{$qq_level_list.account}: {$qq_level_list.name} : 
+							<span class=""><i class="fa fa-gbp color-red font-icon-common" aria-hidden="true"></i> {$qq_level_list.level}
+						</li>
+						</foreach>
+					</ul>
+				</div>
+
+			</div>
+			
+			<div class="row">
+				<div class="col-xs-12 col-md-6">
+					<ul class="list-group">
+						<p class="list-group-item title">等级最低</p>
+						<foreach name="level_low_list" item="level_low_list">
+							<li class="list-group-item">
+								{$level_low_list.account}: {$level_low_list.name} : 
+								<span class=""><i class="fa fa-gbp  color-red font-icon-common" aria-hidden="true"></i> {$level_low_list.level}</span>
+							</li>
+						</foreach>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-md-6">
+					<ul class="list-group">
+						<p class="list-group-item title">铭文最低</p>
+						<foreach name="mingwen_low_list" item="mingwen_low_list">
+						<li class="list-group-item">
+							{$mingwen_low_list.account}: {$mingwen_low_list.name} : 
+							<span class=""><i class="fa fa-lemon-o color-red font-icon-common" aria-hidden="true"></i> {$mingwen_low_list.level}
+						</li>
+						</foreach>
+					</ul>
+				</div>
+
+			</div>
+			
+			
+			<div class="row">
+				<div class="col-xs-12 col-md-6">
+					<ul class="list-group">
+						<p class="list-group-item title">英雄角色数</p>
+						<foreach name="hero_user_num" item="hero_user_num">
+							<li class="list-group-item">
+								{$hero_user_num.hero_name} 
+								<i class="fa fa-venus-mars color-red font-icon-common" aria-hidden="true"></i>
+								{$hero_user_num.count} 
+							</li>
+						</foreach>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-md-6">
+					<ul class="list-group">
+						<p class="list-group-item title">每个英雄场次最高的角色账号</p>
+						<foreach name="cc_hero_user" item="cc_hero_user">
+						<li class="list-group-item">
+							{$cc_hero_user.hero_name} 
+							<if condition="$cc_hero_user.type eq 1"><i class="fa fa-weixin color-red font-icon-common" aria-hidden="true"></i>
+							<elseif condition="$cc_hero_user.type eq 2" /><i class="fa fa-qq color-red font-icon-common" aria-hidden="true"></i>
+							</if>
+							{$cc_hero_user.account}:{$cc_hero_user.area_no}区 {$cc_hero_user.cc} 场
+						</li>
+						</foreach>
+					</ul>
+				</div>
+
+			</div>
+			
+			
+		</div>
+		
+		
+		<!-- 右列 -->
+		<div class="col-xs-12 col-sm-6 col-md-3">
+			<ul class="list-group">
+				<p class="list-group-item title">未设置主玩的角色</p>
+				<foreach name="unown_user" item="unown_user">
+					<li  class="list-group-item">
+						<p>
+							<if condition="$unown_user.type eq 1"><i class="fa fa-weixin color-red font-icon-common" aria-hidden="true"></i>
+							<elseif condition="$unown_user.type eq 2" /><i class="fa fa-qq color-red font-icon-common" aria-hidden="true"></i>
+							</if>
+							{$unown_user.account} {$unown_user.area_no}区 {$unown_user.name}
+						<p>
+						<p>{$unown_user.having_hero}</p>
+						<p>
+							<i class="fa fa-dollar color-red font-icon-common" aria-hidden="true"></i> {$unown_user.money}
+							<i class="fa fa-gbp color-red font-icon-common" aria-hidden="true"></i> {$unown_user.level}
+							<i class="fa fa-diamond color-red font-icon-common" aria-hidden="true"></i> {$unown_user.diamond}
+						</p>
+					</li>
+				</foreach>
+			</ul>
+			
+			
+			<ul class="list-group">
+				<p class="list-group-item title">英雄主玩角色</p>
+				<foreach name="main_hero_list" item="main_hero_list">
+					<li  class="list-group-item">
+						<p>
+							{$main_hero_list.hero_name}
+							<if condition="$main_hero_list.type eq 1"><i class="fa fa-weixin color-red font-icon-common" aria-hidden="true"></i>
+							<elseif condition="$main_hero_list.type eq 2" /><i class="fa fa-qq color-red font-icon-common" aria-hidden="true"></i>
+							</if>
+							{$main_hero_list.account} {$main_hero_list.area_no}区 {$main_hero_list.name}
+						<p>
+						
+						
+					</li>
+				</foreach>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<script>
+(function(){
+	$('#submit_upuser_btn').click(function(e){
+		
+		$('#upuser_submit').submit();
+	});
+})();
+</script>

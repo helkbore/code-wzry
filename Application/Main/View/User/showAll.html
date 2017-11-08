@@ -1,0 +1,60 @@
+<layout name="Base/layout"/>
+
+<div class="main">
+    <a href="{:U('add')}">添加角色</a>
+	<!-- 
+	<select>
+		<option value="1">微信</option>
+		<option value="2">QQ</option>
+	</select>
+	<button>查询</button> 
+	-->
+    <table>
+        <tr>
+            <td>类型</td>
+			<td>账号</td>
+            <td>大区</td>
+            <td>角色名</td>
+            <td>等级</td>
+            <td>金币</td>
+            <td>钻石</td>
+            <td>英雄</td>
+			<td>主玩英雄</td>
+            <td>更新时间</td>
+			<td>管理</td>
+        </tr>
+        
+        <foreach name="_list" item="item">
+            <tr>
+                <td>
+					<input type="hidden" name="user_id" value="{$item.user_id}" />
+					<if condition="$item.type eq 1">微信
+					<elseif condition="$item.type eq 2" />QQ
+					</if>
+				</td>
+				<td>{$item.account}</td>
+                <td>{$item.area_no} {$item.area_name}</td>
+				<td>{$item.name}</td>
+				<td>{$item.level}</td>
+				<td>{$item.money}</td>
+				<td>{$item.diamond}</td>
+				<td>
+					<volist name="item['hero']" id="heros">
+						{$heros.hero_name}, 
+					</volist>
+				</td>
+				<td>
+					<volist name="item['main_hero']" id="main_hero">
+						{$main_hero.hero_name}, 
+					</volist>
+				</td>
+				<td>{:date('Y-m-d H:i:s',$item['last_time'])}</td>
+                <td>
+                    <a href="{:U('dodel',array('user_id'=>$item['user_id']))}">删除</a>
+					<a href="{:U('edit',array('user_id'=>$item['user_id']))}">编辑</a>
+					<a href="{:U('setMain',array('user_id'=>$item['user_id']))}">设置主玩英雄</a>
+                </td>
+            </tr>
+        </foreach>
+    </table>
+</div>

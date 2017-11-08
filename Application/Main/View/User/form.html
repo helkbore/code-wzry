@@ -1,0 +1,187 @@
+<layout name="Base/layout"/>
+<div class="main">
+	<input type="hidden" id="selected_hero_json" value='{$hero_selected}' />
+    <form method="post" action="{:U('dosave')}">
+        <input type="hidden" name="user_id" value="{$user.user_id}" />
+        <label>类型</label>
+        <select name="type" id="select_type">
+            <option value="1" <if condition="$user.type eq 1"> selected </if>>微信</option>
+            <option value="2" <if condition="$user.type eq 2"> selected </if>>QQ</option>
+        </select>
+        <label>账号</label>
+        <select name="account_id" id="select_account">
+			<option>请选择</option>
+			<foreach name="account_wx" item="account">
+				<option value="{$account.account_id}" data-account-type="1" <if condition="$user['account_id'] eq $account['account_id']"> selected </if> >{$account.account}</option>
+			</foreach>
+		
+			<foreach name="account_qq" item="account">
+				<option value="{$account.account_id}" data-account-type="2"  class="hide" <if condition="$user['account_id'] eq $account['account_id']"> selected </if> >{$account.account}</option>
+			</foreach>
+        </select>
+        <label>大区</label>
+        <select name="area_id" id="select_area">
+			<option>请选择</option>
+            <foreach name="area" item="area">
+				<option value="{$area.area_id}" data-area-type="{$area.type}" 
+						<?php if (empty($user) && $area['type'] == 2): ?>
+							class="hide"
+						<?php endif; ?>
+						<if condition="$user['area_id'] eq $area['area_id']"> selected </if> >
+					{$area.area_no} {$area.area_name}
+				</option>
+			</foreach>
+        </select>
+        <label>角色名</label>
+        <input type="text" name="name" value="{$user.name}" />
+        <label>等级</label>
+        <input type="text" name="level" value="{$user.level}" />
+        <label>金钱</label>
+        <input type="text" name="money"  value="{$user.money}" />
+        <label>钻石</label>
+        <input type="text" name="diamond"  value="{$user.diamond}" />
+        <!-- <div> -->
+			<!-- <label>英雄查询</label> -->
+			<!-- <input type="text" /> -->
+			<!-- <button>查询</button> -->
+		<!-- </div> -->
+	<p>已选英雄: </p>
+	<div id="div_show_hero"><p></p></div>
+	<div id="checkbox_hero">
+		<label>英雄</label>
+		<foreach name="hero" item="hero_type" key="key">
+			<div>
+				<if condition="$key eq 't'">
+					<p>坦克</p>
+				</if>
+				<if condition="$key eq 'zs'">
+					<p>战士</p>
+				</if>
+				<if condition="$key eq 'ck'">
+					<p>刺客</p>
+				</if>
+				<if condition="$key eq 'fs'">
+					<p>法师</p>
+				</if>
+				<if condition="$key eq 'lr'">
+					<p>射手</p>
+				</if>
+				<if condition="$key eq 'fz'">
+					<p>辅助</p>
+				</if>
+				
+				<volist name="hero_type" id="heros">
+					<input type="checkbox"  value="{$heros.hero_id}"  data-name="{$heros.hero_name}" >{$heros.hero_name}
+				</volist>
+			</div>
+		</foreach>
+	</div>
+	<button>提交</button>
+	
+    </form>
+	<div id="hide_example">
+		<input type="hidden" name="hero_id[]" value="" id="hide_hero_show" />
+	</div>
+</div>
+<script>
+(function(){
+	// 获取账号的下拉框
+	var select_account = document.getElementById('select_account');
+	cleanWhitespace(select_account);
+	var option_account = getFirstLevelChild(select_account, 'option');
+	
+	// 获取大区的下拉框
+	var select_area = document.getElementById('select_area');
+	cleanWhitespace(select_area);
+	var option_area = getFirstLevelChild(select_area, 'option');
+
+	// 选择账号类型后 账号, 大区下拉框匹配类型
+	$('#select_type').bind('change', function(e){
+		option_account[0].className="";
+		option_account[0].selected="true";
+		option_area[0].className="";
+		option_area[0].selected="true";
+		
+		
+		var account_type, selected_type, area_type;
+		selected_type = this.value;
+		
+		// 匹配账号下拉框
+		for ( var i = 0; i < option_account.length; i++ ) {
+			account_type = option_account[i].getAttribute('data-account-type');
+			// area_typ = option_account[i].getAttribute('data-area-type');
+			// console.log('selected_type' + selected_type);
+			// console.log('account_type' + account_type);
+			if (selected_type - account_type == 0) {
+				// console.log(account_type);
+				// console.log(option_account[i].className);
+				option_account[i].className = "";
+			} else {
+				option_account[i].className = "hide";
+			}
+		}
+		
+		// console.log(option_area);
+		// 匹配大区下拉框
+		for (var i = 0; i < option_area.length; i++) {
+			area_type = option_area[i].getAttribute('data-area-type');
+			
+			if (selected_type - area_type == 0) {
+				option_area[i].className = "";
+			} else {
+				option_area[i].className = "hide";
+			}
+		}
+		
+	});
+
+})();
+
+// $('select_account').bind('change', function(e){});
+// alert($('#test').attr('data-account-type'));
+</script>
+
+
+<script>
+(function(){
+	
+	var checkbox_hero = document.getElementById('checkbox_hero');
+	var div_show_hero = document.getElementById('div_show_hero');
+	cleanWhitespace(checkbox_hero);
+	// console.log(checkbox_option);
+	checkbox_option = getChild(checkbox_hero, 'input');
+	// console.log(checkbox_option);
+	
+	var temp_jq_checkbox;
+	var check_array = [];
+	
+	// check_array = checkHero(checkbox_option);
+	// writeShow(div_show_hero, checkHero(checkbox_option));
+	
+	var selected_hero_json = $('#selected_hero_json').val();
+	var selected_hero_array = $.parseJSON(selected_hero_json);
+	
+	for (var i = 0; i < checkbox_option.length; i++ ) {
+		// 若该英雄已选择, 则自动选上(适用于编辑)
+		for (var j = 0; j < selected_hero_array.length; j++ ) {
+			console.log('start');
+			console.log(selected_hero_array[j]);
+			console.log(checkbox_option[i].value);
+			console.log('end');
+			if ( selected_hero_array[j] == checkbox_option[i].value ) {
+				checkbox_option[i].checked = true;
+			}
+		}
+		
+		writeShow(div_show_hero, checkHero(checkbox_option));
+		// dom对象 转换为 jquery 对象
+		temp_jq_checkbox = $(checkbox_option[i]);
+		temp_jq_checkbox.bind('change', function(){
+			check_array = checkHero(checkbox_option);
+			writeShow(div_show_hero, check_array);
+		});
+	}
+	
+})();
+</script>
+
